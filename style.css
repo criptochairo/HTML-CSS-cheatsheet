@@ -1,0 +1,82 @@
+body {
+    background-image: url('images/background\ light.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+
+#main-header {
+    text-align: center;
+    font-family: monospace;
+    font-size: 35px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 50px;
+    background: linear-gradient(to bottom right, rgba(151, 0, 255, 0.05), rgba(151, 0, 255, 0.20)
+);
+    color: rgba(74, 53, 235, 0.808);
+    text-shadow: 1px 1px 2px #fffffff3;
+}
+
+#column-titles {
+    color: rgba(101, 83, 236, 0.6);
+    text-shadow: 1px 1px 2px #0c0a0af3;
+}
+
+thead {
+    text-align: center;
+    font-family: monospace;
+    font-size: 35px;
+    color: lavender;
+    text-shadow: 2px 2px 4px #1d00ff;
+}
+
+table {
+    text-align: center;
+    width: 100%;
+    font-family: monospace;
+    font-size: 35px;
+    background: linear-gradient(to bottom right, rgba(151, 0, 255, 0.05), rgba(151, 0, 255, 0.10)
+);
+    margin-top: 6%;
+    margin-bottom: 4%;
+}
+
+
+h2 {
+    font-family: monospace;
+    text-align: center;
+    font-size: 25px;
+    color: lavender;
+    text-shadow: 2px 2px 4px #1d00ff;
+    padding-bottom: 2%;
+}
+
+.title {
+    font-family: monospace;
+    text-align: center;
+    font-size: 35px;
+    color: rgba(101, 83, 236, 0.6);
+    text-shadow: 1px 1px 2px #0c0a0af3;
+    padding-bottom: 2%;
+}
+
+p, ul {
+    font-family: monospace;
+    text-align: left;
+    font-size: 25px;
+    color: rgb(48, 48, 104);
+    text-shadow: 2px 2px 2px whitesmoke;
+    margin-left: 180px;
+    margin-right: 180px;
+    padding-bottom: 3%;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 5%;
+}
+
