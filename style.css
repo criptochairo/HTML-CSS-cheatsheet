@@ -1,5 +1,6 @@
 body {
-    background-image: url('images/background\ light.jpg');
+    background: rgb(0,7,36);
+    background: linear-gradient(45deg, rgba(0,7,36,0.26652667903098737) 0%, rgba(9,121,107,0.3981793400954131) 27%, rgba(119,0,255,0.11526617482930668) 100%); 
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 50px;
@@ -42,7 +43,7 @@ table {
     background: linear-gradient(to bottom right, rgba(151, 0, 255, 0.05), rgba(151, 0, 255, 0.10)
 );
     margin-top: 6%;
-    margin-bottom: 4%;
+    margin-bottom: 12%;
 }
 
 
@@ -68,15 +69,20 @@ p, ul {
     font-family: monospace;
     text-align: left;
     font-size: 25px;
-    color: rgb(48, 48, 104);
+    font-weight: 250;
+    color: rgb(0, 0, 0);
     text-shadow: 2px 2px 2px whitesmoke;
     margin-left: 180px;
     margin-right: 180px;
-    padding-bottom: 3%;
+    padding-bottom: 1%;
 }
 
 ul {
     list-style-type: square;
     padding-left: 5%;
+}
+
+footer {
+  padding-bottom: 5%;
 }
 
